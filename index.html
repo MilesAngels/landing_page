@@ -12,12 +12,16 @@
     <style>
         /*Small devices (landscape phones, 576px and up)*/
         @media (min-width: 500px) {
-            .aside1 {
-                width: 250px;
+          .aside1 {
+                width: fit-content;
                 height: 100px;
-                top: 5px;
-                left: 25%;
+                top: 325px;
+                left: 30%;
                 text-align: center;
+          }
+
+          .card {
+            margin-right: 0px;
           }
 
           .aside1 h2 {
@@ -29,7 +33,7 @@
           }
 
           .section1 {
-            top: 390px;
+            top: 450px;
           }
 
           li a {
@@ -43,7 +47,7 @@
             width: fit-content;
             height: 110px;
             top: 15px;
-            left: 30%;
+            left: 35%;
             text-align: center;
           }
 
@@ -55,8 +59,16 @@
             font-size: 15px;
           }
 
+          .card {
+            margin: 15px;
+          }
+
+          .card:last-child {
+            margin-bottom: 30px;
+          }
+
           .section1 {
-            top: 440px;
+            top: 460px;
           }
         }
   
@@ -79,7 +91,7 @@
           }
 
           .section1 {
-            top: 565px;
+            top: 590px;
           }
         }
   
@@ -104,7 +116,7 @@
           }
 
           .section1 {
-            top: 1110px; 
+            top: 730px; 
           }
         }
 
@@ -129,14 +141,14 @@
           }
 
           .section1 {
-            top: 1150px; 
+            top: 850px; 
           }
         }
       </style>
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-md">
+        <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
               <a class="navbar-brand lato text-light" href="index.html"><img class="img-padding" src="images/logo/box.png" style="width: 60px;">amazon best buys</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
