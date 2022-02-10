@@ -17,6 +17,7 @@
                 height: 100px;
                 text-align: center;
                 left: 32%;
+                top: 280px;
           }
 
           .card {
@@ -31,16 +32,32 @@
             font-size: 12px;
           }
 
-          .section1 {
-            top: 500px;
-          }
-
           li a {
             text-align: center;
           }
 
           .disclaimer-banner {
             font-size: smaller;
+          }
+
+          .nav-item:hover {
+            background-color: #3c9aad;
+          }
+
+          .aside2 {
+            padding-bottom: 20px;
+          }
+
+          .card-house {
+            padding: 30px 0px;
+          }
+
+          .col-sm-4 {
+            width: 100%;
+          }
+
+          .col-sm-8 {
+            width: 100%;
           }
         }
   
@@ -50,7 +67,7 @@
             width: fit-content;
             height: 110px;
             top: 430px;
-            left: 35%;
+            left: 37%;
             text-align: center;
           }
 
@@ -75,6 +92,19 @@
             background-color: #fff;
           }
 
+          .aside2 {
+            padding-bottom: 20px;
+            width: 100%;
+          }
+
+          .card-house {
+            padding: 30px 0px;
+          }
+
+          .col-sm-8 {
+            width: 100%;
+          }
+          
         }
   
         /* Large devices (desktops, 992px and up)*/
@@ -100,8 +130,24 @@
             padding: 20px 0px 0px 0px;
           }
 
+          .card {
+            margin-bottom: 0;
+          }
+
           .disclaimer-banner {
             font-size: medium;
+          }
+
+          .nav-link a:hover {
+            color: #3c9aad;
+          }
+
+          .col-sm-4 {
+            width: 30%;
+          }
+
+          .col-sm-8 {
+            width: 70%;
           }
         }
   
@@ -130,6 +176,15 @@
             padding: 20px 0px 0px 0px;
           }
 
+          .card {
+            margin-bottom: 0;
+          }
+
+
+          .nav-item:hover {
+            background-color: #151f28;
+          }
+
         }
 
         @media (min-width: 1400px) { 
@@ -155,6 +210,23 @@
           .section1 {
             top: 970px; 
             padding: 20px 0px 0px 0px;
+          }
+
+          .card {
+            margin-bottom: 0;
+          }
+
+          .aside2 {
+            padding-bottom: 20px;
+            width: 100%;
+          }
+
+          .col-sm-4 {
+            width: 25%;
+          }
+
+          .col-sm-8 {
+            width: 75%;
           }
 
         }
@@ -194,7 +266,8 @@
                 <h2 class="text-light">Explore More Deals</h2>
                 <button class="btn btn-primary"><a href="https://www.amazon.com/">Launch Amazon Now</a></button>
             </aside>
-            <section class="container-fluid section1 text-center">
+        </div>
+            <section class="container-fluid text-center section-background section1">
                 <h2 class="lato bold pt-3"><u>Welcome to Amazon Best Buys!</u></h2>
                 <div>
                     <ul class="inline">
@@ -215,27 +288,70 @@
                         </li>
                     </ul>
                 </div>
-                <p class="lato disclaimer-banner text-light">Disclaimer: Amazon may cause a shopping addiction. Any impulse buy made through our website will be your own responsibility.</p>
-                <footer class="container-fluid">
-                    <div class="text-light">
-                      <div class="row">
-                        <div class="col text-center">
-                          <h5 class="lato bold fs-4">ABB</h5>
-                          <p class="libre-baskerville mb-2 fs-6">Home</p>
-                          <p class="libre-baskerville mb-2 fs-6">About Us</p>
-                          <p class="libre-baskerville mb-3 fs-6">Contact Us</p>
-                        </div>
-                    </div>
-                    <hr>
-                    <div class="mt-2">
-                      <p class="libre-baskerville text-muted copy mb-2">&copy;All Rights Reserved</p>
-                      <a href="#" class="fa fa-facebook text-light p-1 text-muted"></a>
-                      <a href="#" class="fa fa-instagram text-light p-1 text-muted"></a>
-                      <a href="#" class="fa fa-pinterest text-light p-1 text-muted"></a>
-                    </div>
-                </footer>
             </section>
-        </div>
+            <hr>
+            <section class="container-fluid text-center section2">
+              <div class="row">
+                <div></div>
+                <aside class="col-sm-4 aside2">
+                  <h2 class="lato bold text-light">Featured This Month</h2>
+                  <ul>
+                    <li class="card-featured">
+                      <a class="text-dark" href="https://www.amazon.com/b/ref=s9_acss_bw_cg_BHM22Nav_2a1_w?node=23723356011&pf_rd_m=ATVPDKIKX0DER&pf_rd_s=merchandised-search-10&pf_rd_r=ZZ2VSY0DFJYEMNR2FCWJ&pf_rd_t=101&pf_rd_p=64a1b0e2-ddf0-44e0-a5b5-0e4cca587598&pf_rd_i=21560361011">
+                        <img class="img" src="images/card-images/pexels-rfstudio-3817500.jpg">
+                          <h5 class="lato center-text bold">African-American Owned Businesses</h5>
+                          <p class="small-font libre-baskerville">Show your love by supporting african-American owned businesses.</p>
+                      </a>
+                    </li>
+                  </ul>
+                </aside>
+                <div class="col-sm-8 section-background card-house">
+                  <ul class="inline">
+                    <li class="card-featured">
+                      <a class="text-dark" href="https://www.amazon.com/gcx/Valentine's-Day/gfhz/events?categoryId=xcm-valentines-day">
+                        <img class="img"src="images/card-images/pexels-roman-odintsov-6798334.jpg">
+                        <h5 class="lato center-text bold">Gifts for Your Valentine</h5>
+                          <p class="small-font libre-baskerville">Let your loved one know how much you appreciate them by surpsing them with aspecial gift this Valentines Day.</p>
+                      </a>
+                    </li>
+                    <li class="card-featured">
+                      <a class="text-dark" href="https://www.amazon.com/Super-Bowl/s?k=Super+Bowl">
+                        <img class="img" src="images/card-images/pexels-rodnae-productions-8523128.jpg">
+                        <h5 class="lato center-text bold">Superbowl Season</h5>
+                          <p class="small-font libre-baskerville">Get pumped as this year's Superbowl draws near. Grab your essentials here to make game day epic!</p>
+                      </a>
+                    </li>
+                    <li class="card-featured">
+                      <a class="text-dark" href="https://www.amazon.com/Deal-Week/s?k=Deal+of+The+Week">
+                        <img class="img" src="images/card-images/Deals.png">
+                        <h5 class="lato center-text bold">Deals of The Week</h5>
+                          <p class="small-font libre-baskerville">Explore Amazon's never-ending selection of items and get some great deals while you're at it.</p>
+                      </a>
+                    </li>
+                  </ul>
+              </div>
+              </section>
+              <hr>
+            </div>
+            <p class="lato disclaimer-banner text-light text-center">Disclaimer: Amazon may cause a shopping addiction. Any impulse buy made through our website will be your own responsibility.</p>
+            <footer class="container-fluid">
+              <div class="text-light">
+                <div class="row">
+                  <div class="col text-center">
+                    <h5 class="lato bold fs-4">ABB</h5>
+                      <p class="libre-baskerville mb-2 fs-6">Home</p>
+                      <p class="libre-baskerville mb-2 fs-6">About Us</p>
+                      <p class="libre-baskerville mb-3 fs-6">Contact Us</p>
+                  </div>
+                </div>
+                <hr>
+                <div class="mt-2 text-center">
+                  <p class="libre-baskerville text-muted copy mb-2">&copy;All Rights Reserved</p>
+                  <a href="#" class="fa fa-facebook text-light p-1 text-muted"></a>
+                  <a href="#" class="fa fa-instagram text-light p-1 text-muted"></a>
+                  <a href="#" class="fa fa-pinterest text-light p-1 text-muted"></a>
+                </div>
+            </footer>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
