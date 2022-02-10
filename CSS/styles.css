@@ -32,6 +32,10 @@ nav {
     padding: 20px;
 }
 
+main {
+    background-color: #151f28;
+}
+
 .img-padding {
     padding-right: 20px;
 }
@@ -57,7 +61,7 @@ h2, h3, h4, h5, h6 {
 .section1 {
     width: 100%;
     position:absolute;
-    top: 1110px; 
+    top: 900px; 
 }
 
 u {
@@ -67,7 +71,11 @@ u {
 
 .background-color {
     background-color: rgba(21, 31, 40, 0.5);
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(10px);
+}
+
+.section-background {
+    background-color: rgba(219, 218, 218, 0.7);
 }
 
 .aside1 {
@@ -75,10 +83,8 @@ u {
     padding: 15px;
     border-radius: 15px;
     box-shadow: 10px 10px 14px 0px rgba(21,31,40,0.3);
-    width: 400px;
+    width: fit-content;
     height: 125px;
-    top: 100px;
-    left: 75%;
 }
 
 .btn-primary {
